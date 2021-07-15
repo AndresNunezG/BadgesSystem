@@ -1,0 +1,61 @@
+.BadgesList_container {
+    padding: 0;
+}
+
+.BadgesList_container p {
+    margin: 0;
+}
+
+.BadgeList__element {
+    width: 580px;
+    height: 120px;
+    list-style-type: none;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.BadgeList__element-name {
+    color: #1C3643;
+    font-weight: bold;
+}
+
+.BadgeList__element-img-container {
+    width: 20%;
+    padding-left: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.BadgeList__element-img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.BadgeList__element-info {
+    width: 80%;
+    padding: 0 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.BadgeTwitter__container {
+    display: flex;
+    align-items: center;
+}
+
+.BadgeTwitter__container i,
+.BadgeTwitter__container p {
+    color: #1DA1F2;
+}
+
+.BadgeTwitter__container i{
+    font-size: 22px;
+}
+
+.BadgeList__element-jobtitle {
+    font-weight: lighter;
+}

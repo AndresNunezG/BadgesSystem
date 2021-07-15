@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.Home__container {
+    background: url('../../images/HeroBackGround.svg'), #1B1B25;
+    background-repeat: repeat;
+    height: 90vh;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home__container-info {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Home__container-title {display: flex;}
+
+.Home__container-title h1 {font-size: 80px;}
+
+.Home__container-tit1 {font-weight: lighter;}
+
+.Home__container-tit2 {font-weight: bolder;}
+
+.Home__logo {height: 7em;}
+
+.Home__container-info-sub {font-family: 'Anton', sans-serif;}
+
+p, h1{margin: 0;}
+
+.Home__img {
+    margin: 0 5em;
+    width: 50vh;
+}

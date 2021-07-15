@@ -1,0 +1,26 @@
+.Navbar {
+    height: 10vh;
+    background-color: #1C3643;
+    padding: 10px 0px;
+}
+
+.Navbar a {
+    text-decoration: none;
+}
+
+.Navbar__Logo {
+    height: 7vh;
+}
+
+.Navbar__text{
+    color: #FFF;
+    font-size: 25px;
+}
+
+.text__light{
+    font-weight: lighter;
+}
+
+.text__bold{
+    font-weight: bolder;
+}
