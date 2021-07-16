@@ -62,6 +62,12 @@ class BadgeForm extends React.Component {
                         />
                     </div>
                     <button className="btn btn-primary">Save</button>
+                    {this.props.error && (
+                        <div className="FormError__container" style={{display: "flex", alignItems: "center"}}>
+                            <i className="text-danger fas fa-exclamation-triangle"></i>
+                            <p className="text-danger">&nbsp;{this.props.error.message}</p>
+                        </div>
+                    )}
                 </form>
             </div>
         );
