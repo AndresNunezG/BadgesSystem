@@ -16,7 +16,6 @@ class BadgeList extends React.Component {
                 </div>
             )
         }
-
         return (
             <ul className="BadgesList_container">
                 {this.props.badges.reverse().map((badge) => {
@@ -29,7 +28,12 @@ class BadgeList extends React.Component {
                             />
                         </div>
                         <div className="BadgeList__element-info">
-                            <p className="BadgeList__element-name">{badge.firstName} {badge.lastName}</p>
+                            <p className="BadgeList__element-name">
+                                {badge.firstName} {badge.lastName}
+                                <Link to={`/badges/${badge.id}/details`} className="text-reset text-decoration-none">
+                                    <i class="far fa-edit"></i>
+                                </Link>
+                            </p>
                             <div className="BadgeTwitter__container">
                                 <i className="fab fa-twitter BadgeTwitterIcon"></i>
                                 <p>@{badge.twitter}</p>

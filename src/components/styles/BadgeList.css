@@ -18,6 +18,8 @@
 }
 
 .BadgeList__element-name {
+    display: flex;
+    justify-content: space-between;
     color: #1C3643;
     font-weight: bold;
 }
