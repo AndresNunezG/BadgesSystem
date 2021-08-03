@@ -30,10 +30,6 @@ CRUD System Badges management for a developers conference
 
 ![BadgeList](./ReadmeImages/ImgBadgeList.png)
 
-### Edit Badge page
-
-### New Badge page
-
 ## Technologies
 
 - ReactJS
