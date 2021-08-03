@@ -2,6 +2,11 @@
 
 ## Features
 
+- Create badges with the personal information
+- Edit badges previously created (obviously)
+- Delete badges
+- Search and Filter the badge list
+
 ## Screenshots
 
 ![HomePage](./ReadmeImages/ImgHome.png)
